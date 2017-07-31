@@ -1,3 +1,11 @@
+.cards {
+  background-color: #fff;
+  margin: 30px 0;
+  padding: 15px 0;
+  box-shadow:
+        inset 0px 11px 12px -10px #ccc,
+        inset 0px -11px 12px -10px #ccc;
+}
 .card {
   height: 175px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
@@ -7,7 +15,7 @@
   position: relative;
   margin: 20px 0 ;
   border: 7px solid white;
-  box-shadow: 0 0 5px #666;
+  box-shadow: 0 0 6px #999;
   border-radius: 4px;
 }
 .card-user {
